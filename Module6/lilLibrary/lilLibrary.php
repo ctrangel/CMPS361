@@ -33,10 +33,6 @@
         });
     }
 
-
-
-
-
     if ($sortBy != 'default') {
         usort($booksData, function ($a, $b) use ($sortBy) {
             return strcmp($a[$sortBy], $b[$sortBy]);
